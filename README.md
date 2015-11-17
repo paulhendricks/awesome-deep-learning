@@ -7,8 +7,8 @@ If you want to contribute to this list (please do), send me a pull request or co
 
 ## Table of Contents
 
-* [Books](#Books)
-* [Resources](#Web)
+* [Books](###Books)
+* [Resources](###Web)
 
 ### Books
 

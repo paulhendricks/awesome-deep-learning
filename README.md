@@ -12,7 +12,7 @@ If you want to contribute to this list (please do), send me a pull request or co
 
 ### Books
 
-* [Deep Learning ](http://goodfeli.github.io/dlbook/), Yoshua Bengio, Ian Goodfellow, Aaron Courville, MIT Press, In preparation.
+* [Deep Learning](http://goodfeli.github.io/dlbook/), Yoshua Bengio, Ian Goodfellow, Aaron Courville, MIT Press, In preparation.
 
 ### Web
 

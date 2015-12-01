@@ -19,3 +19,4 @@ If you want to contribute to this list (please do), send me a pull request or co
 * [Deep Learning](http://deeplearning.net/)
 * [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/index.html)
 * [Hacker's Guide to Neural Nets](http://karpathy.github.io/neuralnets/)
+

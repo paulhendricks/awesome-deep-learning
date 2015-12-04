@@ -78,3 +78,4 @@ model.add(Dropout(0.2))
 model.add(Dense(200, 3))
 model.add(Activation("linear"))
 model.compile(loss="mean_squared_error", optimizer="rmsprop")
+

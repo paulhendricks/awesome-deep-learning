@@ -42,8 +42,8 @@ out_neurons = 2
 hidden_neurons = 20
 
 model = Sequential()  
-model.add(LSTM(output_dim=hidden_neurons, input_dim=in_neurons, return_sequences=False)) 
-model.add(Dense(output_dim=out_neurons, input_dim=hidden_neurons))
+model.add(LSTM(input_dim=in_neurons, output_dim=hidden_neurons, return_sequences=False))
+model.add(Dense(input_dim=hidden_neurons, output_dim=out_neurons))
 model.add(Activation("linear"))  
 model.compile(loss="mean_squared_error", optimizer="rmsprop")  
 

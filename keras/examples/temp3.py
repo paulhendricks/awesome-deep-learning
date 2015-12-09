@@ -1,5 +1,8 @@
 __author__ = 'paul'
 
+import pandas as pd
+from random import random
+import numpy as np
 from keras.models import Sequential
 from keras.layers.core import Dense, Activation
 from keras.layers.recurrent import LSTM
@@ -13,15 +16,10 @@ model.add(Dense(hidden_neurons, in_out_neurons))
 model.add(Activation("linear"))
 model.compile(loss="mean_squared_error", optimizer="rmsprop")
 
-import pandas as pd
-from random import random
-
 flow = (list(range(1,10,1)) + list(range(10,1,-1)))*1000
 pdata = pd.DataFrame({"a":flow, "b":flow})
 pdata.b = pdata.b.shift(9)
 data = pdata.iloc[10:] * random()  # some noise
-
-import numpy as np
 
 def _load_data(data, n_prev = 100):
     """

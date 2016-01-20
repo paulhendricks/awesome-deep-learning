@@ -18,9 +18,9 @@ from keras.optimizers import SGD, Adadelta, Adagrad
 from keras.utils import np_utils, generic_utils
 from six.moves import range
 
-batch_size = 32
+batch_size = 200
 nb_classes = 10
-nb_epoch = 200
+nb_epoch = 10
 
 # input image dimensions
 img_rows, img_cols = 32, 32
@@ -115,3 +115,4 @@ else:
         for X_batch, Y_batch in datagen.flow(X_test, Y_test):
             score = model.test_on_batch(X_batch, Y_batch)
             progbar.add(X_batch.shape[0], values=[('test loss', score[0])])
+

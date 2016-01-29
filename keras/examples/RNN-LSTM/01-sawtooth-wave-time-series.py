@@ -2,7 +2,6 @@
 '''
 __author__ = 'paul'
 
-from __future__ import print_function
 from random import seed, random
 
 import pandas as pd

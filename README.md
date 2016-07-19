@@ -20,3 +20,8 @@ If you want to contribute to this list (please do), send me a pull request or co
 * [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/index.html)
 * [Hacker's Guide to Neural Nets](http://karpathy.github.io/neuralnets/)
 
+### Setup
+
+```shell
+source activate awesome-deep-learning
+```

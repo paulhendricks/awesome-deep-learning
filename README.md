@@ -16,7 +16,7 @@ If you want to contribute to this list (please do), send me a pull request or co
 
 ### Web
 
-* [Deep Learning](http://deeplearning.net/)
+* [Deep Learning](http://www.deeplearningbook.org/)
 * [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/index.html)
 * [Hacker's Guide to Neural Nets](http://karpathy.github.io/neuralnets/)
 

@@ -1,4 +1,4 @@
-'''blah
+ '''blah
 '''
 __author__ = 'paul'
 
@@ -48,7 +48,6 @@ def train_test_split(df, test_size=0.1):
 
     X_train, y_train = _load_data(df.iloc[0:ntrn])
     X_test, y_test = _load_data(df.iloc[ntrn:])
-
     return (X_train, y_train), (X_test, y_test)
 
 # define model structure
